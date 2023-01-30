@@ -31,9 +31,7 @@ class forcastWorker {
     // List<dynamic> futureDaysData = ["", 0];
     try {
       Response response = await get(Uri.parse(
-          "https://api.openweathermap.org/data/2.5/forecast?q=jaipur&appid=d1404974d83e877d8396ed640b18991e"));
-      // "https://api.openweathermap.org/data/2.5/weather?q=$location&appid=d1404974d83e877d8396ed640b18991e"));
-      // "https://api.openweathermap.org/data/2.5/weather?q=jaipur&appid=b8de3211a0c2de15cd1d1f541f9396cc"));
+          "https://api.openweathermap.org/data/2.5/forecast?q=jaipur&appid=*appid*"));
 
       print("response :- ");
       print(response.body);
